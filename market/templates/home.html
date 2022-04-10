@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}
+    home
+{% endblock %}
+
+{% block content %}
+
+  <section id="hero" class="d-flex justify-content-center align-items-center">
+    <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
+      <h1>21st Century,<br>Market Place</h1>
+      <h2>We have in stock fresh farm produce just how you wanted it</h2>
+      <a href="{{ url_for("market_page") }}" class="btn-get-started nav-link">Get Started</a>
+    </div>
+  </section>
+{% endblock %}
+
